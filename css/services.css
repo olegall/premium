@@ -1,0 +1,69 @@
+/*При создании нового блока ему присваивается новый id="s9..n", каждый раз необходимо лишь по аналогии скопировать текст стиля другого id (например #s1 или #s4), для
+замены картинки необходимо поменять url('путь к картинке'). Метод hover меняет картинку при наведении указателя мыши на картинку. !!!!ВНИМАНИЕ каждый четвертый блок копировать из 4-го! он имеет дополнительные свойства, для корректного отображения на странице!*/
+#s1{
+	background-image:URL(img/service.png);
+}
+
+#s1:hover{
+	background-image:URL(img/serviceH.png);
+}
+
+#s2{
+	background-image:URL(img/service.png);
+}
+
+#s2:hover{
+	background-image:URL(img/serviceH.png);
+}
+
+#s3{
+	background-image:URL(img/service.png);
+}
+
+#s3:hover{
+	background-image:URL(img/serviceH.png);
+}
+
+#s4{
+	background-image:URL(img/service.png);
+	margin-right:0;
+	margin-left:1px;
+}
+
+#s4:hover{
+	background-image:URL(img/serviceH.png);
+}
+
+#s5{
+	background-image:URL(img/service.png);
+}
+
+#s5:hover{
+	background-image:URL(img/serviceH.png);
+}
+
+#s6{
+	background-image:URL(img/service.png);
+}
+
+#s6:hover{
+	background-image:URL(img/serviceH.png);
+}
+
+#s7{
+	background-image:URL(img/service.png);
+}
+
+#s7:hover{
+	background-image:URL(img/serviceH.png);
+}
+
+#s8{
+	background-image:URL(img/service.png);
+	margin-right:0;
+	margin-left:1px;
+}
+
+#s8:hover{
+	background-image:URL(img/serviceH.png);
+}

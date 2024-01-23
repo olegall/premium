@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="windows-1251">
+	<title>Стоматология "Премиум"</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style_oleg.css">
+	<script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+ <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap, 
+            myPlacemark;
+
+        function init(){ 
+            myMap = new ymaps.Map ("map", {
+                center: [55.594433, 37.222053],
+                zoom: 17
+            }); 
+            
+            myPlacemark = new ymaps.Placemark([55.594433, 37.222053], {
+                content: 'Москва!',
+                balloonContent: 'Стоматология "Премиум"'
+            });
+            
+            myMap.geoObjects.add(myPlacemark);
+			
+			var smallZoomControl = new YMaps.SmallZoom();
+        }
+    </script>
+	
+</head>
+<body bgcolor="#dceef8">
+	<div class="page">
+		<div class="header">
+		<div class="headerin">	
+		<div class="number">
+			<img class="phone" src="css/img/phone.png">
+			<h4 class="num">(499) 317 58 33</h4>
+		</div>
+		<p id="time">
+				Время работы:<br>
+				c 9-00 до 21-00<br>
+				без выходных
+		</p>
+		
+			<ul class="menu">
+				<a class="item" href="services_1.html"><li><h4 class="menui">УСЛУГИ</h4></li></a>
+				<a class="itembor" href="clinic.html"><li><h4 class="menui1">КЛИНИКА</h4></li></a>
+				<a class="item" href="staff.html"><li><h4 class="menui">ПЕРСОНАЛ</h4></li></a>
+				<a href="index.html"><li class="logo"><img src="css/img/logo.png" /></li></a>
+				<a class="item" href="portfolio.html"><li><h4 class="menui">НАШИ РАБОТЫ</h4></li></a>
+				<a class="itembor" href="cost.html"><li><h4 class="menui1">ЦЕНА</h4></li></a>
+				<a class="item" href="contacts.html"><li><h4 class="menui">КОНТАКТЫ</h4></li></a>
+			</ul></div>
+		</div>
+		<div class="page-content">
+			<div class="page-main">
+				<div class="services-menu">
+					<a class="menu-point" href="services_1.html">Терапия</a>
+					<a class="menu-point" href="services_2.html">Хирургия</a>
+					<a class="menu-point" href="services_3.html">Имплантология</a>
+					<a class="menu-point" href="services_4.html">Ортопедия</a>
+					<a class="menu-point" href="services_5.html">Ортодонтия</a>
+					<a class="menu-point" href="#">Пародонтология</a>
+					<a class="menu-point" href="services_7.html">Отбеливание</a>
+					<a class="menu-point" href="services_8.html">Гигиена и профилактика</a>
+					<a class="menu-point" href="services_9.html">Эстетическая стоматология</a>
+					<a class="menu-point" href="#" >Диагностика</a>
+				</div>
+				
+				<div class="content">
+					<div id="blue_stripe">
+							<div id="wrap">
+								<img src="img/frame_left.jpg">
+								<h1>КОНТАКТЫ</h1>
+								<img src="img/frame_right.jpg">
+							</div>
+					</div>
+					<div class="inside_content">
+						<div id="wrap_contacts">
+							<h2 class="orange_title_contacts">Адрес</h2>
+							<p>
+								Москва, 117303, <br>
+								ул. Болотникова, 31, к. 1
+							</p>
+						</div>
+						<div id="wrap_contacts">
+							<h2 class="orange_title_contacts">Телефон</h2>
+							<p>
+								(499) 317-58-33 <br>
+								(499) 317-58-33
+							</p>
+						</div>
+						<div id="wrap_contacts">
+							<h2 class="orange_title_contacts">E-mail</h2>
+							<p>
+								info@xxxxxxxx.ru
+							</p>
+						</div>
+						<div class="clear"></div>
+						<p>
+						<span class="bold">График работы:</span><br>
+						пн–сб <span class="orange">с 09:00 до 21:00</span><br>
+						вс с <span class="orange">10:00 до 18:00</span><br><br>
+
+						<span class="bold">Пешие маршруты:</span> Болотниковская ул., 31 корпус 1, город Москва, Россия, 117303
+						Предложенные маршрутыул. Азовская и ул. Болотниковская
+						950 м 10 мин.<br><br>
+
+						ул. Мал. Юшуньская и ул. Одесская
+						1,2 км 13 мин.<br><br>
+
+						Каховская<br>
+						1. Направляйтесь на восток по ул. Каховка в направлении <br>ул. Азовская 2 м<br>
+						2. Поверните налево на пересечении с ул. Азовская 400 м<br>
+						3. Поверните налево на пересечении с ул. Болотниковская<br>
+						Пункт назначения будет слева 500 м
+						Болотниковская ул., 31 корпус 1, город Москва, Россия
+						117303
+						<br><br>
+
+						<span class="bold">Маршруты проезда общественным транспортом:</span><br>
+						Болотниковская ул., 31 корпус 1, город Москва, Россия, 117303<br>
+						<span class="orange">Предложенные маршруты</span><br><br>
+
+						Время в пути: 5 мин.<br><br>
+
+						<span class="orange">Пешком (10 мин.)</span> Каховская<br>
+
+						Время поездки: примерно 5 мин.<br>
+						Показано: Поездка 1 Пешком до Метро Каховская<br>
+						Около 1 мин.<br>
+						Показать подробности<br>
+						<span class="orange">Автобус - 168</span> - Метро Профсоюзная - Северное Чертаново - Направление: Метро Профсоюзная<br>
+						Перевозчик: ГУП Мосгортранс Отъезд: Метро Каховская<br>
+						3 мин. (Остановок: 2)<br>
+						Приезд: Детский сад<br><br>
+
+						Пешком до Болотниковская ул., 31 корпус 1, город Москва, Россия, 117303<br>
+						Около 1 мин.<br>
+						
+						Болотниковская ул., 31 корпус 1<br><br>
+
+						<span class="bold">Маршруты проезда на автомобиле:</span>
+						<br>
+						Каховская<br>
+						1. Направляйтесь на восток по ул. Каховка в направлении ул. Азовская 44 м<br>
+						2. Выполните разворот 77 м<br>
+						3. Сверните направо на перекрестке с ул. Азовская 400 м<br>
+						4. Поверните налево на пересечении с ул. Болотниковская<br>
+						Пункт назначения будет слева 500 м	
+						</p>
+						<img src="img/contacts.jpg">
+						<div id="map">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-alt">
+				<div class="staff">
+
+					<div id="blue_stripe">
+							<div id="wrap">
+								<img src="img/frame_left.jpg">
+								<h1>ПЕРСОНАЛ</h1>
+								<img src="img/frame_right.jpg">
+							</div>
+					</div>
+					
+					<div class="employee"><a href="#"><img class="border-staff" src="img/pr_staff_pic1.jpg"></a><h6 class="staff-font">Казакова<br />Ольга Викторовна<br />
+						<span><hr> врач-ортодонт<br />кандидат медицинских наук<br/></span><a class="staff-a" href="contacts.html">записаться</a></h6></div>
+					<div class="employee"><a href="#"><img class="border-staff" src="img/pr_staff_pic2.jpg"></a><h6 class="staff-font">Сатканова<br />Татьяна Шайдулловна<br />
+						<span><hr> врач-терапевт<br />ортопед хирург<br/></span><a class="staff-a" href="contacts.html">записаться</a></h6></div>
+					<div class="employee"><a href="#"><img class="border-staff" src="img/pr_staff_pic3.jpg"></a><h6 class="staff-font">Пережогина<br />Ольга Сергеевна<br />
+						<span><hr> врач-терапевт<br />ортопед <br/></span><a class="staff-a" href="contacts.html">записаться</a></h6></div>
+					<div class="employee"><a href="#"><img class="border-staff" src="img/pr_staff_pic4.jpg"></a><h6 class="staff-font">Рассохин<br />Евгений Валерьевич<br />
+						<span><hr> врач-терапевт<br />ортопед хирург<br/></span><a class="staff-a" href="contacts.html">записаться</a></h6></div>
+					<br /><br /><br /><h6 class="staff-font"><a class="staff-a1" href="staff.html">Посмотреть всех</a></h6>
+				</div>
+			</div></div>
+			<div class="footer"><div class="line-foot"></div>
+			<br />
+			<ul id="ul_footer">
+				<li><a href="#">услуги</a></li>
+				<li><a href="#">клиника</a></li>
+				<li><a href="#">персонал</a></li>
+				<li><a href="#">наши работы</a></li>
+				<li><a href="#">цена</a></li>
+				<li><a href="#">контакты</a></li>
+			</ul><br>
+			
+			<p id="services_footer">Услуги:</p>
+			<p id="enum_services"><a href="#">Терапия</a> <a href="#">Хирургия</a> <a href="#">Имплантология</a> <a href="#">Ортопедия</a> <a href="#">Ортодонтия</a> <a href="#">Пародонтология</a> <a href="#">Отбеливание</a><br>
+			<a href="#">Гигиена и профилактика</a> <a href="#">Эстетическая стоматология</a> <a href="#">Диагностика</a></p>
+			<h5 class="foot-font">© «Премиум стоматологическая клиника» 2010 г. - стоматологическая клиника, стоматологические услуги<br/><br/>
+				тел (499) 317- 58-33<br/>
+				Москва, Болотниковская 31к1 </h5>
+			</div>
+	</div>
+</body>
+</html>

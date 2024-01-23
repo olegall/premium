@@ -1,0 +1,58 @@
+
+
+
+/* content*/
+
+.content{
+	dispaly:inline;
+	float:left;
+	margin:0 43px 30px 43px;
+	width:386px;
+}
+
+.line-left4{
+	float:left;
+	margin-top:11px;
+	height:1px;
+	width:149px;
+	background-image:url(img/line.png);
+	display:inline;
+}
+
+.mini-logo4{
+	width:88px;
+	height:24px;
+	display:inline;
+	float:left;
+}
+
+.line-right4{
+	margin-top:11px;
+	height:1px;
+	width:149px;
+	background-image:url(img/line.png);
+	float:left;
+	display:inline;
+}
+
+.therapy{
+	padding-top:7px;
+	font-family: "Trebuchet MS",arial;
+	font-size:11px;
+	float:left;
+	width:386px;
+	display:inline;
+}
+
+#zapis{
+	height:20px;
+	width:114px;
+	float:left;
+	background-color:#ff9900;
+	color:white;
+	font-size:12px;
+	margin-top:20px;
+	padding-left:10px;	
+	padding-top:4px;
+}
+

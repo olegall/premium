@@ -1,0 +1,122 @@
+
+
+/*-- page_main--*/
+
+.page-content{
+	width:850px;
+	padding:72px 60px 50px 110px;
+	margin-bottom:50px;
+	clear:both;
+	float:left;
+	background-color:white;
+}
+
+.page-main{
+	width:525px;
+	display:inline-block;
+}
+
+.bunner{
+	margin-top:0;
+	margin-bottom:26px;
+}
+
+.border-word{
+	width:525px;
+	height:26px;
+	display:inline-block;
+}
+
+.line-left1{
+	float:left;
+	margin-top:12px;
+	width:222px;
+	height:1px;
+	background-image:url(img/line.png);
+	display:inline;
+}
+
+.mini-logo1{
+	width:80px;
+	height:26px;
+	display:inline;
+	float:left;
+}
+
+.line-right1{
+	margin-top:12px;
+	width:223px;
+	height:1px;
+	background-image:url(img/line.png);
+	float:left;
+}
+
+.services{
+	margin-top:7px;
+	width:525px;
+	display:inline-block;
+}
+
+.service{
+	width:116px;
+	height:33px;
+	margin:0px 20px 20px 0;
+	float:left;
+	position:relative;
+	text-align:center;
+	display:inline;
+	padding-top:82px;
+	text-decoration:none;
+}
+
+.sfont{
+	font-family:Trebuchet MS,  arial;
+	font-weight:bold;
+	color:white;
+	background-color:rgba(0, 0, 0, 0.4);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#40000000',endColorstr='#40000000')"; 
+	font-size:13px;
+}
+
+.line-left2{
+	float:left;
+	margin-top:12px;
+	width:223px;
+	height:1px;
+	background-image:url(img/line.png);
+	display:inline;
+}
+
+.mini-logo2{
+	width:78px;
+	height:26px;
+	display:inline;
+	float:left;
+}
+
+.line-right2{
+	margin-top:12px;
+	width:224px;
+	height:1px;
+	background-image:url(img/line.png);
+	float:left;
+}
+
+.klinika{
+	margin-top:20px;
+	width:525px;
+	display:inline-block;
+}
+
+.klin-font{
+	margin-top:0;
+	float:right;
+	display:inline;
+	width:325px;
+	font: 9px "Trebuchet MS", "Arial", "Times New Roman";
+	line-height: 1.3;
+}
+
+
+
+
